@@ -1,5 +1,6 @@
 from art import logo
 
+
 # PROPERTIES
 def add(n1, n2): return n1 + n2
 def subtract(n1, n2): return n1 - n2
@@ -15,7 +16,7 @@ def calculate():
     while calculator_is_in_use:
         operation_is_in_progress = True
         n1 = float(input("What's the first number? "))
-        
+
         for op in ops:
             print(op)
 
